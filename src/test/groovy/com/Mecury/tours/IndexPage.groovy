@@ -1,4 +1,4 @@
-package com.herokuapp.potus
+package tours
 
 import geb.Page
 
@@ -9,7 +9,7 @@ class IndexPage extends Page {
     title == 'Welcome: Mercury Tours'
   }
 
-  static content = {
-    navigation { module NavigationModule, $('#navigation', 0) }
-  }
+//  static content = {
+    
+//  }
 }
