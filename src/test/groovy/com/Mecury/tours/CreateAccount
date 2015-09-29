@@ -1,0 +1,19 @@
+package com.herokuapp.potus
+
+import geb.spock.GebReportingSpec
+
+class PresidentsSpecChart extends GebReportingSpec {
+
+
+    def "Test Should be able to create an account"() {
+        when:
+        to IndexPage
+
+        then:
+        at IndexPage
+
+        Thread.sleep(10000)
+
+    }
+
+}
