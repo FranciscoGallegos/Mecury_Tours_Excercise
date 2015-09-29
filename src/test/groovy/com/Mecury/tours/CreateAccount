@@ -1,4 +1,4 @@
-package tours
+package com.Mercury.tours
 
 import geb.spock.GebReportingSpec
 
