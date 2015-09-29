@@ -1,0 +1,20 @@
+package com.herokuapp.potus
+
+import geb.spock.GebReportingSpec
+
+class PresidentsSpecName extends GebReportingSpec {
+
+
+  def "Should test Should be able to Log in successfully"() {
+    when:
+    to IndexPage
+
+    then:
+    at IndexPage
+    
+    Thread.sleep(1000)
+    println "Complete"
+    Thread.sleep(3000)
+  }
+
+}
